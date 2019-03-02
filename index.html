@@ -22,6 +22,46 @@
 	<link href="css/styles.css" rel="stylesheet">
 	
 	<link href="css/responsive.css" rel="stylesheet">
+
+	<style type="text/css">
+		.beacon-tooltip, .bravel-tooltip {
+		  /*visibility: hidden;*/
+		  width: 120px;
+		  background-color: black;
+		  margin-left: 230px;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 6px;
+		  padding: 5px 0;
+
+		  /* Position the tooltip */
+		  position: absolute;
+		  z-index: 1;
+		}
+
+		.bravel-tooltip {
+			margin-top: 5px;
+		}
+
+		.beacon-tooltip::after, .bravel-tooltip::after {
+		  content: " ";
+		  position: absolute;
+		  left: 50%;
+		  margin-left: -5px;
+		  border-width: 5px;
+		  border-style: solid;
+		}
+
+		.beacon-tooltip::after {
+			top: 100%; /* At the bottom of the tooltip */
+		  border-color: black transparent transparent transparent;
+		}
+
+		.bravel-tooltip::after {
+		  bottom: 100%;  /* At the top of the tooltip */
+		  border-color: transparent transparent black transparent;
+		}
+	</style>
 	
 </head>
 <body>
@@ -295,8 +335,9 @@
 			</div><!-- row -->
 		</div><!-- container -->
 		
+		<span class="beacon-tooltip">Click Here</span>
+		<br>
 		<div class="portfolioContainer">
-			
 			<div class="p-item beacon-systems text-right">
 				<a href="#" data-fluidbox onclick="window.open('http://www.beaconsbay.com', '_blank');">
 					<img src="images/beacon-main.png" alt="">
@@ -343,6 +384,7 @@
 				<a href="#" data-fluidbox onclick="window.open('http://bravel.zenomni.com', '_blank');">
 					<img src="images/Bravel.png" alt="">
 				</a>
+				<span class="bravel-tooltip">Click Here</span>
 			</div><!-- p-item -->
 
 			<div class="p-item bravel">
