@@ -26,9 +26,9 @@
 	<style type="text/css">
 		.beacon-tooltip, .bravel-tooltip {
 		  /*visibility: hidden;*/
-		  width: 120px;
+		  width: 170px;
 		  background-color: black;
-		  margin-left: 230px;
+		  margin-left: 180px;
 		  color: #fff;
 		  text-align: center;
 		  border-radius: 6px;
@@ -36,7 +36,7 @@
 
 		  /* Position the tooltip */
 		  position: absolute;
-		  z-index: 1;
+		  z-index: 1000;
 		}
 
 		.bravel-tooltip {
@@ -60,6 +60,36 @@
 		.bravel-tooltip::after {
 		  bottom: 100%;  /* At the top of the tooltip */
 		  border-color: transparent transparent black transparent;
+		}
+
+		.collapsible {
+		  color: white;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		}
+
+		.collapsible:after {
+		  content: '\002B';
+		  color: white;
+		  font-weight: bold;
+		  float: right;
+		  margin-left: 5px;
+		}
+
+		.active:after {
+		  content: "\2212";
+		}
+
+		.content {
+		  padding: 0 18px;
+		  max-height: 0;
+		  overflow: hidden;
+		  transition: max-height 0.2s ease-out;
 		}
 	</style>
 	
@@ -149,6 +179,23 @@
 						<br><br>
 						In the work environment, I would constantly try to find the most efficient methods in getting my team to perform their daily routines and to also help my future self by building strong foundations whether it be improving the relationships amongst my colleagues or writing clean and scalable code to reduce the generation of potential technical debt.
 					</p>
+
+					<div id="mobile-section">
+						<h6 class="font-lite-black"><b>Skills</b></h6>
+						<ul>
+							<li>PHP & Laravel</li><br>
+							<li>Ruby & ROR</li><br>
+							<li>Javascript & Vue</li><br>
+							<li>Python</li><br>
+							<li>HTML & CSS</li><br>
+							<li>MYSQL & POSTGRESQL</li><br>
+							<li>APACHE2 & NGINX</li><br>
+							<li>GOOGLE CLOUD PLATFORM</li><br>
+							<li>REST & OOP</li><br>
+							<li>GIT</li><br>
+							<li>Ubuntu & CentOS</li>
+						</ul>
+					</div>
 
 					<button class="btn btn-primary" id="see-skills-button" onclick="seeSkills()">See all skills</button>
 					<br><br>
@@ -276,7 +323,7 @@
 				<div class="col-sm-4">
 					<div class="heading">
 						<h3><b>Work Experience</b></h3>
-						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+						<h6 class="font-lite-black"><b>PAST EXPERIENCES</b></h6>
 					</div>
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
@@ -287,12 +334,60 @@
 						<h6 class="margin-t-10">October 2017 - January 2019</h6>
 						<p class="font-semi-white margin-tb-30">The following projects were done in parallel throughout my time in the company and lead by myself with a team of 5 of us in total.</p>
 						<ul class="list margin-b-30">
-							<li>Beacon Accounting Software</li>
-							<li>Sunway ITSSC - Project Management Software</li>
-							<li>Sunway ITSSC - Billing & Task Management Software</li>
-							<li>Palace of the Golden Horses - E-Membership System</li>
-							<li>Broadline - Commission management system</li>
-							<li>Bravel - E-commerce Marketplace</li>
+							<li class="collapsible">Beacon Accounting Software</li>
+							<div class="content">
+								<ul class="list">
+									<li>Build and lead the development team in building an accounting software which included stock control and HR features.</li>
+									<li>The system included features that allowed users to issue Invoices by mail or download them if they wish to store hard copy versions of them.</li>
+									<li>The system was integrated with Malaysia's Tax system(SST) to enable users to easily generate tax reports for them to submit to Malaysia's Tax Department.</li>
+									<li>The system could provide and auto-generate financial and accounting reports(Profit & Loss Statement, Balance Sheet, Trial Balance, General Ledger, etc…) for users.</li>
+									<li>Connected the system with a payment gateway(AsiaPay) to enable customers to bill/pay one other through the platform with pdf documents which have links attached to the payment system.</li>
+									<li>Built customizable invoice pdf documents to allow users to generate their own company's style invoice format.</li>
+									<li>Set-up a multi-tenancy database infrastructure to improve the security of the data and performance of the database querying.</li>
+									<li>Dwelled in building APIs to serve the purpose of utilising legacy codes to act as microservices in servers that contain older versions of PHP to communicate with updated servers.</li>
+									<li>Implemented and helped maintained a Git workflow for the development team.</li>
+									<li>Implemented Laravel Dusk to enable automated testing on the code to reduce the need for manual testing.</li>
+									<li>Met up and managed clients to perform on-site demonstrations/training.</li>
+									<li>On-boarded over 200 businesses.</li>
+								</ul>
+							</div>
+							<li class="collapsible">Sunway ITSSC - Project Management Software</li>
+							<div class="content">
+								<ul class="list">
+									<li>Lead and managed to build a project management system to assist the client in managing their internal projects.</li>
+									<li>The system assisted the client in keeping track of their employees KPIs as well as generated monthly reports for the client's employees to stay on schedule for their tasks.</li>
+									<li>The system built contained dynamic checklists which the client could generate themselves.</li>
+								</ul>
+							</div>
+							<li class="collapsible">Sunway ITSSC - Billing & Task Management Software</li>
+							<div class="content">
+								<ul class="list">
+									<li>Lead and managed to build a task management system with billing features integrated within for the client to manage their internal tasks while also helping manage their financial documents which are associated with their tasks.</li>
+									<li>The system allows the client to produce dynamic financial documents(invoices, quotations & purchase orders) to allow the user to adjust the document output based on their own client’s needs.</li>
+								</ul>
+							</div>
+							<li class="collapsible">Palace of the Golden Horses - E-Membership System</li>
+							<div class="content">
+								<ul class="list">
+									<li>Removed the need for the customers of the client to use physical cards and hard copy feedback forms by creating features for the admins to create/edit surveys while also being able to see the results of the surveys through bar charts.</li>
+									<li>Implemented an E-membership system for the client to easier manage their customers.</li>
+								</ul>
+							</div>
+							<li class="collapsible">Broadline - Commission management system</li>
+							<div class="content">
+								<ul class="list">
+									<li>Implemented and helped maintained a Git workflow for the development team.</li>
+									<li>Updated code to utilise codes from a different server using the Laravel Framework by connecting it through APIs.</li>
+									<li>Build web scrapers to harvest commission data to cross-check and validate the integrity of the data sent by the commissioner.</li>
+								</ul>
+							</div>
+							<li class="collapsible">Bravel - E-commerce Marketplace</li>
+							<div class="content">
+								<ul class="list">
+									<li>Built an e-commerce website(http://bravel.zenomni.com) to assist the client in setting up a C to C marketplace.</li>
+									<li>Marketplace allowed users to buy and sell products which are mainly sold by constant travellers.</li>
+								</ul>
+							</div>
 						</ul>
 					</div><!-- experience -->
 					
@@ -335,7 +430,7 @@
 			</div><!-- row -->
 		</div><!-- container -->
 		
-		<span class="beacon-tooltip">Click Here</span>
+		<span class="beacon-tooltip">Try clicking here!</span>
 		<br>
 		<div class="portfolioContainer">
 			<div class="p-item beacon-systems text-right">
@@ -384,7 +479,7 @@
 				<a href="#" data-fluidbox onclick="window.open('http://bravel.zenomni.com', '_blank');">
 					<img src="images/Bravel.png" alt="">
 				</a>
-				<span class="bravel-tooltip">Click Here</span>
+				<span class="bravel-tooltip">I'm clickable too!</span>
 			</div><!-- p-item -->
 
 			<div class="p-item bravel">
@@ -598,21 +693,27 @@
 	<script src="common-js/scripts.js"></script>
 
 	<script type="text/javascript">
-		$(window).scroll(function() {
-			start = $('#see-skills-button').offset().top + window.screen.height * 0.30;
-			var hT = start;
-			checkScroll(hT, 'back-end');
+		if(! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			$('#mobile-section').hide();
+			$(window).scroll(function() {
+				start = $('#see-skills-button').offset().top + window.screen.height * 0.30;
+				var hT = start;
+				checkScroll(hT, 'back-end');
 
-			var hT = start + change;
-			checkScroll(hT, 'front-end');
+				var hT = start + change;
+				checkScroll(hT, 'front-end');
 
-			var hT = start + change * 2;
-			checkScroll(hT, 'server');
-		});
+				var hT = start + change * 2;
+				checkScroll(hT, 'server');
+			});
+		} else if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+			console.log('test');
+			$('#see-skills-button, .back-end, .front-end, .server').hide();
+		}
 
 		function seeSkills() {
 		  $('html, body').animate({
-		    scrollTop: $('#see-skills-button').offset().top - 100
+		    scrollTop: $('#see-skills-button').offset().top - window.screen.height * 0.1
 		  }, 500);
 		  setTimeout(displayAllSkills, 600);
 		}
@@ -633,6 +734,21 @@
 			} else {
 				$('.' + className).slideUp();
 			}
+		}
+
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    } 
+		  });
 		}
 	</script>
 
