@@ -1,0 +1,122 @@
+body {
+    font-size: 16px;
+    font-family: 'Poppins', serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+.margin-tb-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margin-t-10 {
+    margin-top: 10px;
+}
+
+.margin-b-30 {
+    margin-bottom: 30px;
+}
+
+.margin-b-50 {
+    margin-bottom: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a, button {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.experience .list > li {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.collapsible {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.experience .list > li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    margin-top: -5px;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+}
+
+.education-wrapper {
+    position: relative;
+}
+
+.education-wrapper .education {
+    position: relative;
+}
+
+.education-wrapper .education:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -58px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px rgba(255,171,0, .4);
+    background: #FFAB00;
+}
+
+.education-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    left: -51px;
+    width: 2px;
+    background: #ccc;
+}
