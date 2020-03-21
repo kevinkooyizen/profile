@@ -21,7 +21,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Kevin Koo Yi Zen') }}</title>
+    <title>{{ config('app.name', 'Kevin Koo Yi Zen | Full-Stack Web Developer') }}</title>
 
     <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
 
