@@ -20,6 +20,7 @@
                         <ul class="social-icons">
                             <!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
                             <li><a href="https://www.linkedin.com/in/kevinkooyizen/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                            <li><a href="https://github.com/kevinkooyizen/" target="_blank"><i class="ion-social-github"></i></a></li>
                             <!-- <li><a href="#"><i class="ion-social-instagram"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
