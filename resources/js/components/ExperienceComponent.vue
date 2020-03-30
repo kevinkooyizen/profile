@@ -11,8 +11,25 @@
                 <div class="col-sm-8">
 
                     <div class="experience margin-b-50">
+                        <h4><b>Full-Stack Web Developer</b></h4>
+                        <h5 class="font-yellow"><b>Tripfez Travel Sdn Bhd (<a href="https://www.tripfez.com/en" target="_blank">https://www.tripfez.com</a>)</b></h5>
+                        <h6 class="margin-t-10">May 2019 - Present</h6>
+                        <ul class="list">
+                            <li>Implemented a content management-based system for the company's new website.</li>
+                            <li>Re-architectured the new website using a microservice-based structure.</li>
+                            <li>Integrate a payment system(BillPlz) for consumers to make online bookings/payments.</li>
+                            <li>Set up Webpack to reduce the served file size and busting cache</li>
+                            <li>Built a component-based structure for the implementation of Vue in the website.</li>
+                            <li>Set up the new servers(Ubuntu) for the new website where I implemented security and cache layers. - SSL wildcard certs, Fail2ban, FastCGI.</li>
+                            <li>Set up the CI/CD(Continuous Integration/Continuous Deployment) flow to integrate automated testing of code, and remove the need for manual deployment of code</li>
+                            <li>Documenting the entirety of our system’s back-end architecture.</li>
+                            <li>Since the launch of the new website, the website has acquired 300 thousand users.</li>
+                        </ul>
+                    </div><!-- experience -->
+
+                    <div class="experience margin-b-50">
                         <h4><b>Chief Technology Officer/Co-Founder</b></h4>
-                        <h5 class="font-yellow"><b>Beacon Systems Sdn Bhd</b></h5>
+                        <h5 class="font-yellow"><b>Beacon Systems Sdn Bhd (<a href="https://www.beaconsbay.com" target="_blank">https://www.beaconsbay.com</a>)</b></h5>
                         <h6 class="margin-t-10">October 2017 - January 2019</h6>
                         <p class="font-semi-white margin-tb-30">The following projects were done in parallel throughout my time in the company and lead by myself with a team of 5 of us in total.</p>
                         <ul class="list margin-b-30">
@@ -29,7 +46,7 @@
                         </ul>
                     </div><!-- experience -->
 
-                    <div class="experience margin-b-50">
+                    <!--<div class="experience margin-b-50">
                         <h4><b>Tier 1 Graduate Entrepreneurship Visa Holder</b></h4>
                         <h5 class="font-yellow"><b>Renarium/University of Manchester</b></h5>
                         <h6 class="margin-t-10">July 2016 - June 2017</h6>
@@ -40,7 +57,7 @@
                             <br><br>
                             Throughout the one year, I attended boot camps and events that helped me as an individual to grow and learn how startups operate and build long-lasting connections. I had a good insight as to what struggles and challenges other businesses faced and was also exposed to the most common mistakes most businesses make which helped me a lot while I was building my own.
                         </p>
-                    </div><!-- experience -->
+                    </div>&lt;!&ndash; experience &ndash;&gt;-->
 
                 </div><!-- col-sm-8 -->
             </div><!-- row -->

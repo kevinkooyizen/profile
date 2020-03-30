@@ -10,7 +10,7 @@
                     <div class="intro">
                         <div class="profile-img"><img src="{{ asset('/images/Kevin_Koo_Yi_Zen.jpg') }}" alt=""></div>
                         <h2><b>Kevin Koo Yi Zen</b></h2>
-                        <h4 class="font-yellow">Full Stack Web Developer</h4>
+                        <h4 class="font-yellow">Full-Stack Web Developer</h4>
                         <ul class="information margin-tb-30">
                             <!-- <li><b>BORN : </b>22 July, 1994</li> -->
                             <li><b>EMAIL : </b> <a href="mailto:kooyizen@outlook.com">kooyizen@outlook.com</a></li>
@@ -42,9 +42,7 @@
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
                     <p class="margin-b-50">
-                        I have 1 and a half years of experience in web programming which ranges from building e-commerce sites, project management sites, marketplaces, task management systems and basic blog sites. During this time, I have contributed efficiently towards optimising workflow processes by helping onboarding new technology to the existing legacy systems or upgrading/updating existing legacy systems with additional features and improve the scalability of these applications.
-                        <br><br>
-                        In the work environment, I would constantly try to find the most efficient methods in getting my team to perform their daily routines and to also help my future self by building strong foundations whether it be improving the relationships amongst my colleagues or writing clean and scalable code to reduce the generation of potential technical debt.
+                        One who is always hungry into learning new ways for optimisation and scalability. In the work environment, I would constantly try to find the most efficient methods in performing my daily routines and to also help my future self by building strong foundations whether it be improving the relationships amongst my colleagues, writing clean and scalable code or good documentation.
                     </p>
 
                     {{--<div id="mobile-section">
@@ -66,6 +64,129 @@
 
 {{--                    <button class="btn btn-primary" id="see-skills-button" onclick="seeSkills()">See all skills</button>--}}
                     <br><br>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".85">
+                                    <div></div>
+                                    <h6 class="progress-title">PHP</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".85">
+                                    <div></div>
+                                    <h6 class="progress-title">Laravel</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".50">
+                                    <div></div>
+                                    <h6 class="progress-title">Symfony</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".80">
+                                    <div></div>
+                                    <h6 class="progress-title">OOP</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".85">
+                                    <div></div>
+                                    <h6 class="progress-title">JAVASCRIPT</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".60">
+                                    <div></div>
+                                    <h6 class="progress-title">VUE</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".80">
+                                    <div></div>
+                                    <h6 class="progress-title">HTML & CSS</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".50">
+                                    <div></div>
+                                    <h6 class="progress-title">WEBPACK</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".85">
+                                    <div></div>
+                                    <h6 class="progress-title">MYSQL</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".50">
+                                    <div></div>
+                                    <h6 class="progress-title">NGINX</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".30">
+                                    <div></div>
+                                    <h6 class="progress-title">APACHE2</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".80">
+                                    <div></div>
+                                    <h6 class="progress-title">GIT</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".60">
+                                    <div></div>
+                                    <h6 class="progress-title">CI/CD - CIRCLECI</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".85">
+                                    <div></div>
+                                    <h6 class="progress-title">UBUNTU</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="radial-prog-area margin-b-30">
+                                <div class="radial-progress" data-prog-percent=".40">
+                                    <div></div>
+                                    <h6 class="progress-title">RUBY/ROR</h6>
+                                </div>
+                            </div><!-- radial-prog-area-->
+                        </div><!-- col-sm-6-->
+                    </div>
 
                     {{--<div class="row">
                         <div id="back-end-start"></div>
@@ -197,11 +318,6 @@
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
                     <div class="education-wrapper">
-                        <div class="education margin-b-50">
-                            <h4><b>DIGITAL MARKETING</b></h4>
-                            <h5 class="font-yellow"><b>DIGITAL MARKETING CONSULTING SDN BHD</b></h5>
-                            <h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2018 (2 MONTHS)</h6>
-                        </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>FULL STACK WEB DEVELOPER BOOTCAMP</b></h4>
@@ -213,6 +329,12 @@
                             <h4><b>BACHELORS IN MECHANICAL Bachelors in Mechanical Engineering with Management</b></h4>
                             <h5 class="font-yellow"><b>UNIVERSITY OF MANCHESTER</b></h5>
                             <h6 class="font-lite-black margin-t-10">GRADUATED IN JULY 2016 (3 YEARS)</h6>
+                        </div><!-- education -->
+                        
+                        <div class="education margin-b-50">
+                            <h4><b>DIGITAL MARKETING</b></h4>
+                            <h5 class="font-yellow"><b>DIGITAL MARKETING CONSULTING SDN BHD</b></h5>
+                            <h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2018 (2 MONTHS)</h6>
                         </div><!-- education -->
                     </div><!-- education-wrapper -->
                 </div><!-- col-sm-8 -->

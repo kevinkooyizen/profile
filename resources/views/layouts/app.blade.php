@@ -37,5 +37,10 @@
 </div>
 
 <script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ asset('/plugins/jquery-3.2.1.min.js') }}"></script>
+<script src="{{ asset('/plugins/jquery.waypoints.min.js') }}"></script>
+<script src="{{ asset('/plugins/progress.min.js') }}"></script>
+<script src="{{ asset('/plugins/script.js') }}"></script>
+
 </body>
 </html>
