@@ -104,7 +104,6 @@ jobs:
                     at: ./
             -   run: mkdir ~/.ssh
             -   run: sudo apt install rsync
-            -   run: sudo apt-get install sshpass
             -   run:
                     name: Make remote server a known host
                     command: ssh-keyscan ${<< parameters.ssh-host >>} >> ~/.ssh/known_hosts
