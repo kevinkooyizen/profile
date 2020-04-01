@@ -326,11 +326,11 @@
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
-                            <h4><b>BACHELORS IN MECHANICAL Bachelors in Mechanical Engineering with Management</b></h4>
+                            <h4><b>BACHELORS IN MECHANICAL ENGINEERING WITH MANAGEMENT</b></h4>
                             <h5 class="font-yellow"><b>UNIVERSITY OF MANCHESTER</b></h5>
                             <h6 class="font-lite-black margin-t-10">GRADUATED IN JULY 2016 (3 YEARS)</h6>
                         </div><!-- education -->
-                        
+
                         <div class="education margin-b-50">
                             <h4><b>DIGITAL MARKETING</b></h4>
                             <h5 class="font-yellow"><b>DIGITAL MARKETING CONSULTING SDN BHD</b></h5>
