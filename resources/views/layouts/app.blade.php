@@ -17,11 +17,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#28023D">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Kevin Koo Yi Zen | Full-Stack Web Developer') }}</title>
+    <meta name="description" content="Kevin Koo Yi Zen. Full-Stack Web Developer. Email: kooyizen@outlook.com. Phone: +60123658503">
 
     <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
 

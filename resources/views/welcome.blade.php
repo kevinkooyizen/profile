@@ -8,9 +8,11 @@
                 <div class="col-md-1 col-lg-2"></div>
                 <div class="col-md-10 col-lg-8">
                     <div class="intro">
-                        <div class="profile-img"><img src="{{ asset('/images/Kevin_Koo_Yi_Zen.jpg') }}" alt=""></div>
-                        <h2><b>Kevin Koo Yi Zen</b></h2>
-                        <h4 class="font-yellow">Full-Stack Web Developer</h4>
+                        <div class="profile-img"><img src="{{ asset('/images/Kevin_Koo_Yi_Zen.jpg') }}" alt="Kevin Koo Yi Zen Full-Stack Web Developer" title="Kevin Koo Yi Zen Full-Stack Web Developer" loading="lazy"></div>
+                        <h1 class="d-none">Kevin Koo Yi Zen | Full-Stack Web Developer</h1>
+                        <span class="header-name"><b>Kevin Koo Yi Zen</b></span>
+                        <br>
+                        <span class="header-role">Full-Stack Web Developer</span>
                         <ul class="information margin-tb-30">
                             <!-- <li><b>BORN : </b>22 July, 1994</li> -->
                             <li><b>EMAIL : </b> <a href="mailto:kooyizen@outlook.com">kooyizen@outlook.com</a></li>
@@ -19,8 +21,8 @@
                         </ul>
                         <ul class="social-icons">
                             <!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
-                            <li><a href="https://www.linkedin.com/in/kevinkooyizen/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
-                            <li><a href="https://github.com/kevinkooyizen/" target="_blank"><i class="ion-social-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kevinkooyizen/" target="_blank"><i class="ion-social-linkedin"></i><span class="d-none">Kevin Koo Yi Zen LinkedIn Profile</span></a></li>
+                            <li><a href="https://github.com/kevinkooyizen/" target="_blank"><i class="ion-social-github"></i><span class="d-none">Kevin Koo Yi Zen Github Profile</span></a></li>
                             <!-- <li><a href="#"><i class="ion-social-instagram"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
@@ -36,8 +38,8 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
-                        <h3><b>About me</b></h3>
-                        <h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+                        <h2><b>About me</b></h2>
+                        <h3 class="font-lite-black"><b>PROFESSIONAL PATH</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
@@ -70,7 +72,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".85">
                                     <div></div>
-                                    <h6 class="progress-title">PHP</h6>
+                                    <span class="progress-title">PHP</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -78,7 +80,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".85">
                                     <div></div>
-                                    <h6 class="progress-title">Laravel</h6>
+                                    <span class="progress-title">Laravel</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -86,7 +88,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".50">
                                     <div></div>
-                                    <h6 class="progress-title">Symfony</h6>
+                                    <span class="progress-title">Symfony</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -94,7 +96,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".80">
                                     <div></div>
-                                    <h6 class="progress-title">OOP</h6>
+                                    <span class="progress-title">OOP</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -102,7 +104,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".85">
                                     <div></div>
-                                    <h6 class="progress-title">JAVASCRIPT</h6>
+                                    <span class="progress-title">JAVASCRIPT</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -110,7 +112,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".60">
                                     <div></div>
-                                    <h6 class="progress-title">VUE</h6>
+                                    <span class="progress-title">VUE</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -118,7 +120,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".80">
                                     <div></div>
-                                    <h6 class="progress-title">HTML & CSS</h6>
+                                    <span class="progress-title">HTML & CSS</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -126,7 +128,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".50">
                                     <div></div>
-                                    <h6 class="progress-title">WEBPACK</h6>
+                                    <span class="progress-title">WEBPACK</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -134,7 +136,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".85">
                                     <div></div>
-                                    <h6 class="progress-title">MYSQL</h6>
+                                    <span class="progress-title">MYSQL</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -142,7 +144,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".50">
                                     <div></div>
-                                    <h6 class="progress-title">NGINX</h6>
+                                    <span class="progress-title">NGINX</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -150,7 +152,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".30">
                                     <div></div>
-                                    <h6 class="progress-title">APACHE2</h6>
+                                    <span class="progress-title">APACHE2</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -158,7 +160,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".80">
                                     <div></div>
-                                    <h6 class="progress-title">GIT</h6>
+                                    <span class="progress-title">GIT</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -166,7 +168,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".60">
                                     <div></div>
-                                    <h6 class="progress-title">CI/CD - CIRCLECI</h6>
+                                    <span class="progress-title">CI/CD - CIRCLECI</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -174,7 +176,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".85">
                                     <div></div>
-                                    <h6 class="progress-title">UBUNTU</h6>
+                                    <span class="progress-title">UBUNTU</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -182,7 +184,7 @@
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".40">
                                     <div></div>
-                                    <h6 class="progress-title">RUBY/ROR</h6>
+                                    <span class="progress-title">RUBY/ROR</span>
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
@@ -312,8 +314,8 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
-                        <h3><b>Education</b></h3>
-                        <h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+                        <h2><b>Education</b></h2>
+                        <h3 class="font-lite-black"><b>ACADEMIC CAREER</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
@@ -348,8 +350,8 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
-                        <h3><b>Social Enterprise Experience</b></h3>
-                        <h6 class="font-lite-black"><b>Volunteering</b></h6>
+                        <h2><b>Social Enterprise Experience</b></h2>
+                        <h3 class="font-lite-black"><b>Volunteering</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
@@ -398,8 +400,8 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
-                        <h3><b>Personal Interests</b></h3>
-                        <!-- <h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6> -->
+                        <h2><b>Personal Interests</b></h2>
+                        <h3 class="font-lite-black"><b>Leisure</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">

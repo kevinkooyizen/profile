@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
-                        <h3><b>Work Experience</b></h3>
-                        <h6 class="font-lite-black"><b>PAST EXPERIENCES</b></h6>
+                        <h2><b>Work Experience</b></h2>
+                        <h3 class="font-lite-black"><b>PAST EXPERIENCES</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
