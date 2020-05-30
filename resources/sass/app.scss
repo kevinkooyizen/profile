@@ -16,3 +16,19 @@
 @import "intro_section";
 @import "plugins/ionicons.css";
 
+.white-section .list > li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    margin-top: -5px;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #777;;
+}
+
+.white-section .list > li {
+    color: #777;
+}

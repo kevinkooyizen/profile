@@ -309,7 +309,9 @@
 
     <experience-component></experience-component>
 
-    <section class="education-section section">
+    <portfolio-component></portfolio-component>
+
+    <section class="education-section purple-section section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -345,13 +347,13 @@
 
     </section><!-- about-section -->
 
-    <section class="experience-section section">
+    <section class="education section white-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
                         <h2><b>Social Enterprise Experience</b></h2>
-                        <h3 class="font-lite-black"><b>Volunteering</b></h3>
+                        <h3 class="font-lite-black"><b>VOLUNTEERING</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
@@ -360,7 +362,7 @@
                         <h4><b>Global Brigades (Engineering), Tegucigalpa, Honduras</b></h4>
                         <h5 class="font-yellow"><b><a href="https://www.globalbrigades.org" target="_blank">https://www.globalbrigades.org</a></b></h5>
                         <h6 class="margin-t-10">June 2016</h6>
-                        <p class="font-semi-white margin-tb-30">
+                        <p class="margin-tb-30">
                             I volunteered to be a part of this brigade to Tegucigalpa with the sole mission of improving the community’s living standard.
                             <br><br>
                             Tegucigalpa is the capital of Honduras which contains numerous villages having a huge shortage of clean water. There are plenty of villages within this state that still relies on the traditional water pumping system to obtain their daily need of water. The villages also lack proper water treatment processes which have led to plenty of health problems.
@@ -378,7 +380,7 @@
                         <h4><b>Kechara Soup Kitchen, Kuala Lumpur</b></h4>
                         <h5 class="font-yellow"><b><a href="http://www.kechara.com/soup-kitchen" target="_blank">http://www.kechara.com/soup-kitchen</a></b></h5>
                         <h6 class="margin-t-10">December 2011</h6>
-                        <p class="font-semi-white margin-tb-30">
+                        <p class="margin-tb-30">
                             Kechara Soup Kitchen is an NPO established in Malaysia with a mission to provide to the poor and homeless around Malaysia. Although the organisation was established by a Buddhist Spiritual Guide, they believe in respecting others’ beliefs and do not discriminate when providing to the needy. The organisation does not only limit themselves to providing food to the homeless but also assist them in finding jobs for them to be able to sustain themselves.
                             <br><br>
                             I have participated in more than 10 occasions on the following social activities:
@@ -395,40 +397,40 @@
 
     </section><!-- experience-section -->
 
-    <section class="education-section section">
+    <section class="purple-section section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="heading">
                         <h2><b>Personal Interests</b></h2>
-                        <h3 class="font-lite-black"><b>Leisure</b></h3>
+                        <h3 class="font-lite-black"><b>LEISURE</b></h3>
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
                     <div class="education-wrapper">
                         <div class="education margin-b-50">
                             <h4><b>CODING</b></h4>
-                            <p class="margin-tb-30">I consistently want to learn as much as possible in the world of technology as I am very intrigued by it’s potential. I am currently in the midst of a <a href="https://www.coursera.org/learn/machine-learning">Machine Learning course</a> as I believe automation is the key to the future of all industries and am extremely fascinated in systems that are capable of making decisions on their own e.g. self-driving cars.</p>
+                            <p class="margin-tb-30 font-semi-white">I consistently want to learn as much as possible in the world of technology as I am very intrigued by it’s potential. I am currently in the midst of a <a href="https://www.coursera.org/learn/machine-learning">Machine Learning course</a> as I believe automation is the key to the future of all industries and am extremely fascinated in systems that are capable of making decisions on their own e.g. self-driving cars.</p>
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>FUTSAL</b></h4>
-                            <p class="margin-tb-30">To keep myself fit, I enjoy a weekly game of 5-a-side futsal with my friends. I usually prefer the goalkeeper position whenever I am to play casually or even competitively throughout the past five years.</p>
+                            <p class="margin-tb-30 font-semi-white">To keep myself fit, I enjoy a weekly game of 5-a-side futsal with my friends. I usually prefer the goalkeeper position whenever I am to play casually or even competitively throughout the past five years.</p>
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>3D Modeling (Solidworks)</b></h4>
-                            <p class="margin-tb-30">SolidWorks is an AutoCAD software which I have picked up throughout my degree. During seasonal holidays, I enjoy freelancing and performing 3D Modeling works for some extra side income. It also acts as good practice as I am required to do a lot of 3D Modeling work for my degree. A portfolio of my personal work is available upon request.</p>
+                            <p class="margin-tb-30 font-semi-white">SolidWorks is an AutoCAD software which I have picked up throughout my degree. During seasonal holidays, I enjoy freelancing and performing 3D Modeling works for some extra side income. It also acts as good practice as I am required to do a lot of 3D Modeling work for my degree. A portfolio of my personal work is available upon request.</p>
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>Drumming</b></h4>
-                            <p class="margin-tb-30">When young, I was initially introduced to the music world by learning how to play the piano. I then felt like I didn’t manage to feel any connection to music as compared to playing the drums which I then switched to. I realised I  enjoy hearing music with a heavy base and began my love for drums. I am a certified grade 8 drummer.</p>
+                            <p class="margin-tb-30 font-semi-white">When young, I was initially introduced to the music world by learning how to play the piano. I then felt like I didn’t manage to feel any connection to music as compared to playing the drums which I then switched to. I realised I  enjoy hearing music with a heavy base and began my love for drums. I am a certified grade 8 drummer.</p>
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>E-Sports</b></h4>
-                            <p class="margin-tb-30">During my downtime and when I am not working/studying, when I take breaks, I enjoy immersing myself in online strategy games which requires the combination of teamwork as well as planning and strategising. Eg. Dota 2, Artifact.</p>
+                            <p class="margin-tb-30 font-semi-white">During my downtime and when I am not working/studying, when I take breaks, I enjoy immersing myself in online strategy games which requires the combination of teamwork as well as planning and strategising. Eg. Dota 2, Artifact.</p>
                         </div><!-- education -->
                     </div><!-- education-wrapper -->
                 </div><!-- col-sm-8 -->
