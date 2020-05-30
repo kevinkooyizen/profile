@@ -37,7 +37,7 @@
       "nationality": "Malaysia",
       "url": "https://www.kooyizen.com",
        "sameAs" : [
-        "http://github.com/kevinkooyizen",
+        "https://github.com/kevinkooyizen",
         "https://www.linkedin.com/in/kevinkooyizen"
       ]
     }
