@@ -29,6 +29,9 @@ jobs:
                 type: string
                 default: npm run prod
         steps:
+            - run: php -v # Check php version
+            - run: node -v # Check node version
+
             - checkout
 
             - run: cp .env.<< parameters.parameters-file >> .env
