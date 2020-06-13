@@ -9,6 +9,10 @@ executors:
         docker:
             -   image: circleci/php:7.3-node
         working_directory: ~/profile-workspace
+    circleci-base-image:
+        docker:
+            -   image: cimg/base:stable
+        working_directory: ~/profile-workspace
     php-executor:
         docker:
             -   image: circleci/php:7.3
@@ -94,7 +98,7 @@ jobs:
                   command: ./vendor/bin/phpcs -pd memory_limit=-1 --warning-severity=6 --exclude=PSR2.Methods.FunctionCallSignature --extensions=php --ignore=*/vendors/* --standard=PSR2 app
     # Node executor is used here as it is a faster docker image to pull from circle ci preset docker images
     deploy:
-        executor: node-executor
+        executor: circleci-base-image
         parameters:
             environment:
                 type: string
