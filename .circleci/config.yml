@@ -110,6 +110,9 @@ jobs:
             -   attach_workspace:
                     at: ./
             -   run: mkdir ~/.ssh
+
+            # Update apt and install rsync
+            -   run: sudo apt update
             -   run: sudo apt install rsync
             -   run:
                     name: Make remote server a known host
