@@ -55,8 +55,6 @@ jobs:
             - run: sudo apt-get install libpng-dev
             - run: sudo docker-php-ext-install gd
 
-            # Install prestissimo for shorter composer installs
-            - run: /usr/local/bin/composer global require hirak/prestissimo
             - run: php -d memory_limit=-1 /usr/local/bin/composer install -n --prefer-dist -vvv
             - run: php artisan key:generate
 
