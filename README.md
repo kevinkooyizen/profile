@@ -1,5 +1,3 @@
-Kevin Koo Yi Zen
+[Kevin Koo Yi Zen](https://www.kooyizen.com)
 
 kooyizen@outlook.com
-
-[Koo Yi Zen](https://www.kooyizen.com).
