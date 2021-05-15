@@ -68,7 +68,7 @@ export default {
                     title: "Mortgage Calculator",
                     image: "images/home_loan_calculator.png",
                     category: 'vue',
-                    link: 'https://homeloancalculator.zenomni.com',
+                    link: 'https://www.kooyizen.com/loan',
                 },
                 {
                     title: "Sudoku Solver",
