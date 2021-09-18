@@ -6,18 +6,22 @@ version: 2.1
 
 executors:
     php-node-executor:
+        resource_class: small
         docker:
             -   image: circleci/php:7.3-node
         working_directory: ~/profile-workspace
     circleci-base-image:
+        resource_class: small
         docker:
             -   image: cimg/base:stable
         working_directory: ~/profile-workspace
     php-executor:
+        resource_class: small
         docker:
             -   image: circleci/php:7.3
         working_directory: ~/profile-workspace
     node-executor:
+        resource_class: small
         docker:
             -   image: circleci/node:lts
         working_directory: ~/profile-workspace
