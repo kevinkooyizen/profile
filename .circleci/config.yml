@@ -84,7 +84,8 @@ jobs:
             - run: << parameters.build-command >>
 
             # reduce node files being saved to workspace
-            - run: curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash && ./bin/node-prune
+            # goreleaser temporarily cannot be called
+            # - run: curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash && ./bin/node-prune
 
             - persist_to_workspace:
                   root: ./
