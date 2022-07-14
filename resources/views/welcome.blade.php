@@ -65,9 +65,9 @@
                     </div>--}}
 
 {{--                    <button class="btn btn-primary" id="see-skills-button" onclick="seeSkills()">See all skills</button>--}}
-                    <br><br>
+                    {{--<br><br>
 
-                    <div class="row">
+                    {{--<div class="row">
                         <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="radial-prog-area margin-b-30">
                                 <div class="radial-progress" data-prog-percent=".85">
@@ -188,7 +188,7 @@
                                 </div>
                             </div><!-- radial-prog-area-->
                         </div><!-- col-sm-6-->
-                    </div>
+                    </div>--}}
 
                     {{--<div class="row">
                         <div id="back-end-start"></div>
