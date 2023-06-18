@@ -43,7 +43,7 @@ export default {
             projects: [
                 {
                     title: "GoodWhale",
-                    image: "images/goodwhale.png",
+                    image: "images/goodwhale.jpg",
                     category: 'flutter',
                     link: 'https://www.goodwhale.com',
                 },
