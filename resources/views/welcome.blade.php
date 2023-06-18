@@ -22,7 +22,7 @@
                         <ul class="social-icons">
                             <li><a href="https://www.linkedin.com/in/kevinkooyizen" target="_blank"><i class="ion-social-linkedin"></i><span class="d-none">Kevin Koo Yi Zen LinkedIn Profile</span></a></li>
                             <li><a href="https://github.com/kevinkooyizen" target="_blank"><i class="ion-social-github"></i><span class="d-none">Kevin Koo Yi Zen Github Profile</span></a></li>
-                            <li><a href="https://stackoverflow.com/users/7253763/kevin-koo" target="_blank"><i class="ion-social-github"></i><span class="d-none">Kevin Koo Yi Zen Stack Overflow Profile</span></a></li>
+                            <li><a href="https://stackoverflow.com/users/7253763/kevin-koo" target="_blank"><ion-icon name="logo-stackoverflow"></ion-icon><span class="d-none">Kevin Koo Yi Zen Stack Overflow Profile</span></a></li>
                             <!-- <li><a href="#"><i class="ion-social-instagram"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
