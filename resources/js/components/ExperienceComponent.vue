@@ -12,7 +12,7 @@
 
                     <div class="experience margin-b-50">
                         <h4><b>Chapter Lead</b></h4>
-                        <h5 class="font-yellow"><b>8I Holdings Limited (<a href="https://www.goodwhale.com" target="_blank">https://www.goodwhale.com</a></b></h5>
+                        <h5 class="font-yellow"><b>8I Holdings Limited (<a href="https://www.goodwhale.com" target="_blank">https://www.goodwhale.com</a>)</b></h5>
                         <h6 class="margin-t-10">Nov 2020 - Present</h6>
                         <ul class="list">
                             <li>Establish and effectively communicate team priorities in line with the overall objectives of the organization.</li>
