@@ -11,20 +11,19 @@
                 <div class="col-sm-8">
 
                     <div class="experience margin-b-50">
-                        <h4><b>Senior Software Engineer</b></h4>
-                        <h5 class="font-yellow"><b>8I Holdings Limited (<a href="https://web.vi.app" target="_blank">https://web.vi.app</a>, <a href="https://vi.app" target="_blank">https://vi.app</a>)</b></h5>
+                        <h4><b>Chapter Lead</b></h4>
+                        <h5 class="font-yellow"><b>8I Holdings Limited (<a href="https://www.goodwhale.com" target="_blank">https://www.goodwhale.com</a></b></h5>
                         <h6 class="margin-t-10">Nov 2020 - Present</h6>
-                        <!--<ul class="list">
-                            <li>Implemented a content management-based system for the company's new website.</li>
-                            <li>Re-architectured the new website using a microservice-based structure.</li>
-                            <li>Integrate a payment system(BillPlz) for consumers to make online bookings/payments.</li>
-                            <li>Set up Webpack to reduce the served file size and busting cache</li>
-                            <li>Built a component-based structure for the implementation of Vue in the website.</li>
-                            <li>Set up the new servers(Ubuntu) for the new website where I implemented security and cache layers. - SSL wildcard certs, Fail2ban, FastCGI.</li>
-                            <li>Set up the CI/CD(Continuous Integration/Continuous Deployment) flow to integrate automated testing of code, and remove the need for manual deployment of code</li>
-                            <li>Documenting the entirety of our system’s back-end architecture.</li>
-                            <li>Since the launch of the new website, the website has acquired 300 thousand users.</li>
-                        </ul>-->
+                        <ul class="list">
+                            <li>Establish and effectively communicate team priorities in line with the overall objectives of the organization.</li>
+                            <li>Foster strategic alignment, streamline processes, and promote cohesive decision-making across multiple teams.</li>
+                            <li>Clearly define performance expectations for individuals based on their roles and levels, ensuring alignment with organizational goals.</li>
+                            <li>Conduct regular performance and development discussions, delivering constructive feedback and providing coaching as needed.</li>
+                            <li>Formulate a comprehensive long-term technical outlook and roadmap, encompassing both current and future requirements, extending beyond team boundaries.</li>
+                            <li>Continually refine the roadmap to address anticipated future needs and infrastructure demands.</li>
+                            <li>Supervise system designs within the designated domain, critically evaluating product or system development code to resolve complex and ambiguous challenges.</li>
+                            <li>Conduct thorough code reviews for fellow engineers, offering constructive feedback to ensure adherence to best practices such as style guidelines, code integrity, accuracy, testability, and efficiency.</li>
+                        </ul>
                     </div><!-- experience -->
 
                     <div class="experience margin-b-50">
@@ -32,15 +31,16 @@
                         <h5 class="font-yellow"><b>Tripfez Travel Sdn Bhd (<a href="https://www.tripfez.com/en" target="_blank">https://www.tripfez.com</a>)</b></h5>
                         <h6 class="margin-t-10">May 2019 - Oct 2020</h6>
                         <ul class="list">
-                            <li>Implemented a content management-based system for the company's new website.</li>
-                            <li>Re-architectured the new website using a microservice-based structure.</li>
-                            <li>Integrate a payment system(BillPlz) for consumers to make online bookings/payments.</li>
-                            <li>Set up Webpack to reduce the served file size and busting cache</li>
-                            <li>Built a component-based structure for the implementation of Vue in the website.</li>
-                            <li>Set up the new servers(Ubuntu) for the new website where I implemented security and cache layers. - SSL wildcard certs, Fail2ban, FastCGI.</li>
-                            <li>Set up the CI/CD(Continuous Integration/Continuous Deployment) flow to integrate automated testing of code, and remove the need for manual deployment of code</li>
-                            <li>Documenting the entirety of our system’s back-end architecture.</li>
-                            <li>Since the launch of the new website, the website has acquired 300 thousand users.</li>
+                            <li>Successfully revamped the existing website, resulting in the acquisition of 300 thousand users.</li>
+                            <li>Developed and implemented a content management-based system for the company's new website with Laravel.</li>
+                            <li>Re-architected the website using a microservice-based structure to enhance performance and scalability with Symfony.</li>
+                            <li>Optimised API calls and minimised database queries for improved efficiency.</li>
+                            <li>Integrated the BillPlz payment system, enabling consumers to make online bookings and payments.</li>
+                            <li>Implemented Webpack to reduce file size and implement cache-busting techniques.</li>
+                            <li>Built a component-based structure for Vue implementation on the website.</li>
+                            <li>Configured and maintained an AWS-based infrastructure for the website.</li>
+                            <li>Implemented security and cache layers (SSL wildcard certs, Fail2ban, FastCGI, Gzip).</li>
+                            <li>Established a CI/CD flow with Circle CI, automating code testing and eliminating manual deployment.</li>
                         </ul>
                     </div><!-- experience -->
 
@@ -63,18 +63,18 @@
                         </ul>
                     </div><!-- experience -->
 
-                    <!--<div class="experience margin-b-50">
-                        <h4><b>Tier 1 Graduate Entrepreneurship Visa Holder</b></h4>
-                        <h5 class="font-yellow"><b>Renarium/University of Manchester</b></h5>
-                        <h6 class="margin-t-10">July 2016 - June 2017</h6>
-                        <p class="font-semi-white margin-tb-30">
-                            Was amongst the selected 20 candidates by the University of Manchester to be granted a Tier 1 Graduate Entrpreneurship Visa in the United Kingdom. Requirements for attaining the visa was to have viable business plans which were backed with solid market research data to prove as market validation.
-                            <br><br>
-                            Throughout the one year, I was self-learning on how to code by starting off in Python as I had minimal knowledge in coding at that time and felt like it was a necessary skill.
-                            <br><br>
-                            Throughout the one year, I attended boot camps and events that helped me as an individual to grow and learn how startups operate and build long-lasting connections. I had a good insight as to what struggles and challenges other businesses faced and was also exposed to the most common mistakes most businesses make which helped me a lot while I was building my own.
-                        </p>
-                    </div>&lt;!&ndash; experience &ndash;&gt;-->
+                    <div class="experience margin-b-50">
+                        <h4><b>Co-Founder</b></h4>
+                        <h5 class="font-yellow"><b>Renarium</b></h5>
+                        <h6 class="margin-t-10">Jun 2016 - Apr 2017</h6>
+                        <ul class="list">
+                            <li>Developed an intermediary renting platform catering to the C-C market, facilitating the rental of household items.</li>
+                            <li>Conducted comprehensive market research to identify target demographics, competitive landscape, and potential growth opportunities.</li>
+                            <li>Validated user needs and preferences through user testing, ensuring the platform met their expectations and provided a seamless experience.</li>
+                            <li>Utilized effective pitching strategies to secure funding for the project, effectively communicating its value proposition and market potential.</li>
+                            <li>Organized and conducted user testing sessions to gather valuable feedback and insights, iteratively improving the platform based on user input.</li>
+                        </ul>
+                    </div><!-- experience -->
 
                 </div><!-- col-sm-8 -->
             </div><!-- row -->
