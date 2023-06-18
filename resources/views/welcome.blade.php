@@ -9,20 +9,20 @@
                 <div class="col-md-10 col-lg-8">
                     <div class="intro">
                         <div class="profile-img"><img src="{{ asset('/images/Kevin_Koo_Yi_Zen.jpg') }}" alt="Kevin Koo Yi Zen Full-Stack Web Developer" title="Kevin Koo Yi Zen Full-Stack Web Developer" loading="lazy"></div>
-                        <h1 class="d-none">Kevin Koo Yi Zen | Full-Stack Web Developer</h1>
+                        <h1 class="d-none">Kevin Koo Yi Zen | Tech Enthusiast | Entrepreneur | Mentor</h1>
                         <span class="header-name"><b>Kevin Koo Yi Zen</b></span>
                         <br>
-                        <span class="header-role">Full-Stack Web Developer</span>
+                        <span class="header-role">Tech Enthusiast | Entrepreneur | Mentor</span>
                         <ul class="information margin-tb-30">
-                            <!-- <li><b>BORN : </b>22 July, 1994</li> -->
-                            <li><b>EMAIL : </b> <a href="mailto:kooyizen@outlook.com">kooyizen@outlook.com</a></li>
-                            <li><b>PHONE : </b> <a href="tel:+60123658503">+60123658503</a></li>
+                            <!-- <li><b>BORN : </b>01 Jan, 1970</li> -->
+                            <li><b>EMAIL : </b> <a href="mailto:kooyizen@gmail.com">kooyizen@gmail.com</a></li>
+                            <li><b>PHONE : </b> <a href="tel:+60123658503">+6012-3658503</a></li>
                             <!-- <li><b>MARITAL STATUS : </b>Single</li> -->
                         </ul>
                         <ul class="social-icons">
-                            <!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
-                            <li><a href="https://www.linkedin.com/in/kevinkooyizen/" target="_blank"><i class="ion-social-linkedin"></i><span class="d-none">Kevin Koo Yi Zen LinkedIn Profile</span></a></li>
-                            <li><a href="https://github.com/kevinkooyizen/" target="_blank"><i class="ion-social-github"></i><span class="d-none">Kevin Koo Yi Zen Github Profile</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/kevinkooyizen" target="_blank"><i class="ion-social-linkedin"></i><span class="d-none">Kevin Koo Yi Zen LinkedIn Profile</span></a></li>
+                            <li><a href="https://github.com/kevinkooyizen" target="_blank"><i class="ion-social-github"></i><span class="d-none">Kevin Koo Yi Zen Github Profile</span></a></li>
+                            <li><a href="https://stackoverflow.com/users/7253763/kevin-koo" target="_blank"><i class="ion-social-github"></i><span class="d-none">Kevin Koo Yi Zen Stack Overflow Profile</span></a></li>
                             <!-- <li><a href="#"><i class="ion-social-instagram"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
                             <!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
@@ -44,7 +44,7 @@
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
                     <p class="margin-b-50">
-                        One who is always hungry into learning new ways for optimisation and scalability. In the work environment, I would constantly try to find the most efficient methods in performing my daily routines and to also help my future self by building strong foundations whether it be improving the relationships amongst my colleagues, writing clean and scalable code or good documentation.
+                        Passionate tech startup professional with a track record of driving innovation, growth, and market dominance. I have expertise in identifying untapped opportunities, leveraging emerging technologies, and building high-performing teams. I have a borderline unhealthy obsession with optimisation and scalability.
                     </p>
 
                     {{--<div id="mobile-section">
@@ -324,21 +324,27 @@
                     <div class="education-wrapper">
 
                         <div class="education margin-b-50">
+                            <h4><b>SCRUM MASTER CERTIFIED</b></h4>
+                            <h5 class="font-yellow"><b>SCRUM ALLIANCE</b></h5>
+                            <h6 class="font-lite-black margin-t-10">SEP 2021</h6>
+                        </div><!-- education -->
+
+                        <div class="education margin-b-50">
                             <h4><b>FULL STACK WEB DEVELOPER BOOTCAMP</b></h4>
                             <h5 class="font-yellow"><b>NEXT ACADEMY</b></h5>
-                            <h6 class="font-lite-black margin-t-10">GRADUATED IN OCTOBER 2017 (3 MONTHS)</h6>
+                            <h6 class="font-lite-black margin-t-10">OCTOBER 2017</h6>
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>BACHELORS IN MECHANICAL ENGINEERING WITH MANAGEMENT</b></h4>
                             <h5 class="font-yellow"><b>UNIVERSITY OF MANCHESTER</b></h5>
-                            <h6 class="font-lite-black margin-t-10">GRADUATED IN JULY 2016 (3 YEARS)</h6>
+                            <h6 class="font-lite-black margin-t-10">JULY 2016</h6>
                         </div><!-- education -->
 
                         <div class="education margin-b-50">
                             <h4><b>DIGITAL MARKETING</b></h4>
                             <h5 class="font-yellow"><b>DIGITAL MARKETING CONSULTING SDN BHD</b></h5>
-                            <h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2018 (2 MONTHS)</h6>
+                            <h6 class="font-lite-black margin-t-10">MAY 2018</h6>
                         </div><!-- education -->
                     </div><!-- education-wrapper -->
                 </div><!-- col-sm-8 -->
