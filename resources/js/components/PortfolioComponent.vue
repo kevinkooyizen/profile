@@ -11,6 +11,7 @@
                 <div class="col-sm-8">
                     <div>
                         <span class="filter" v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')">ALL</span>
+                        <span class="filter" v-bind:class="{ active: currentFilter === 'flutter' }" v-on:click="setFilter('flutter')">Flutter</span>
                         <span class="filter" v-bind:class="{ active: currentFilter === 'laravel_vue' }" v-on:click="setFilter('laravel_vue')">Laravel + Vue</span>
                         <span class="filter" v-bind:class="{ active: currentFilter === 'vue' }" v-on:click="setFilter('vue')">Vue</span>
                         <span class="filter" v-bind:class="{ active: currentFilter === 'symfony_vue' }" v-on:click="setFilter('symfony_vue')">Symfony + Vue</span>
@@ -40,6 +41,12 @@ export default {
         return {
             currentFilter: 'ALL',
             projects: [
+                {
+                    title: "GoodWhale",
+                    image: "images/goodwhale.png",
+                    category: 'flutter',
+                    link: 'https://www.goodwhale.com',
+                },
                 {
                     title: "Tripfez Travel",
                     image: "images/tripfez_home.png",
